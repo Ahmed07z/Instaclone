@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/pages/HomePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        // This is the theme of your application.
+        scaffoldBackgroundColor: Colors.black,
+        dialogBackgroundColor: Colors.black,
+     
+
+     
+        // This is the theme ofyour application.
         //
         // Try running your application with "flutter run". You'll see the
         // application has a blue toolbar. Then, without quitting the app, try
@@ -25,7 +32,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: 
+      home: HomePage()
+    
+
     );
   }
 }
