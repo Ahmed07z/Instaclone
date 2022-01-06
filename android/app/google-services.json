@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "693769842404",
+        "project_id": "social-network-app-1f4ff",
+        "storage_bucket": "social-network-app-1f4ff.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:693769842404:android:ce4c9aebe08546919986f1",
+            "android_client_info": {
+                "package_name": "com.example.instagram_clone"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "693769842404-v2bnkeft79tiojchs23ppbujsghgofok.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.example.instagram_clone",
+                    "certificate_hash": "c6ab9f18b74671960ea2885365e06d786e580db4"
+                }
+            },
+            {
+                "client_id": "693769842404-3elmspmatif8ob4rosgle468bm8t7l17.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyAnktNN1WSxiCDGH97C-xPXOwf1uKEi6ag"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "693769842404-3elmspmatif8ob4rosgle468bm8t7l17.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
